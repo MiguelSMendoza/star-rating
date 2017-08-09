@@ -1,0 +1,24 @@
+{
+    "name": "smendoza/stars",
+    "description": "API to manage ratings information",
+    "license": "GPL",
+    "authors": [{
+        "name": "Miguel S. Mendoza",
+        "email": "miguel@smendoza.net",
+        "homepage": "https://smendoza.net"
+    }],
+    "repositories": [{
+            "type": "git",
+            "url": "https://github.com/MiguelSMendoza/CyberREST.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/MiguelSMendoza/CyberDB.git"
+        }
+    ],
+    "require": {
+        "miguelsmendoza/rest-oauth": "dev-master",
+        "firebase/php-jwt": "dev-master",
+        "miguelsmendoza/db": "dev-master"
+    }
+}
